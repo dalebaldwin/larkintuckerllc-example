@@ -1,16 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+var hello_impl_1 = require("./hello-impl");
+exports.random = hello_impl_1.random;
 exports.default = 'hello world';
-exports.random = function () {
-    var randomNumber = Math.floor(Math.random() * 3);
-    switch (randomNumber) {
-        case 1:
-            return 'hello one';
-        case 2:
-            return 'hello two';
-        default:
-            // 0 case
-            return 'hello zero';
-    }
-};
 //# sourceMappingURL=hello.js.map

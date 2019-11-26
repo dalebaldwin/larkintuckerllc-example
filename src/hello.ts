@@ -1,14 +1,4 @@
-export default 'hello world';
+import { random } from './hello-impl';
 
-export const random = (): string => {
-  const randomNumber = Math.floor(Math.random() * 3);
-  switch (randomNumber) {
-    case 1:
-      return 'hello one';
-    case 2:
-      return 'hello two';
-    default:
-      // 0 case
-      return 'hello zero';
-  }
-};
+export default 'hello world';
+export { random };
