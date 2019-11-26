@@ -62,4 +62,3 @@ exports.default = (function () {
     }, [setIsWaiting]);
     return isWaiting;
 });
-//# sourceMappingURL=useDelay.js.map

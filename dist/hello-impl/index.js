@@ -13,4 +13,3 @@ exports.random = function () {
             return 'hello zero';
     }
 };
-//# sourceMappingURL=index.js.map
